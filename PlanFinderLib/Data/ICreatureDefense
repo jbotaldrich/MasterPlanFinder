@@ -1,0 +1,15 @@
+using System;
+
+namespace PlanFinderLib
+{
+	public interface ICreatureOffense
+	{
+		int Speed {get; set;}
+		string Melee{get; set;}
+		string Ranged{get; set;}
+		int Space{get; set;}
+		int Reach{get; set;}
+		string SpecialAttack{get;set;}
+		string SpellsPrepared{get;set;}
+	}
+}
